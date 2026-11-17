@@ -1,7 +1,7 @@
 from Persona import Persona
 class Empleado (Persona):
     
-    def __init__ (self, nombre, apellido, documento, legajo, id):
+    def __init__ (self, nombre, apellido, documento, legajo, id = None):
         super ().__init__(nombre, apellido, documento)
         self.legajo = legajo
         self.id = id  
